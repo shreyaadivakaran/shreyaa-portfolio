@@ -317,7 +317,8 @@ export default function App() {
 
             {/* ===== Row 2: Skill Cards (FULL WIDTH, ONE ROW) ===== */}
             <div className="w-full">
-              <div className="grid grid-cols-4 gap-8 items-stretch">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 items-stretch">
+
                 {[
                   {
                     title: "Frontend",
