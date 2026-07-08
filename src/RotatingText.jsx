@@ -2,11 +2,22 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const greetings = [
-  "Bonjour, je suis Shreya",
-  "Hello, I am Shreya",
-  "Hola, soy Shreya",
-  "Hallo, ich bin Shreya",
-  "Ciao, sono Shreya",
+  "Hello, I am Shreya", // English
+  "வணக்கம், நான் ஷ்ரேயா", // Tamil
+  "Hello, I am Shreya", // English
+  "こんにちは、私はシュレヤです", // Japanese
+  "Hola, soy Shreya", // Spanish
+  "Hello, I am Shreya", // English
+  "नमस्ते, मैं श्रेया हूँ", // Hindi
+  "Bonjour, je suis Shreya", // French
+  "안녕하세요, 저는 슈레야입니다", // Korean
+  "Hello, I am Shreya", // English
+  "مرحباً، أنا شريا", // Arabic
+  "Ciao, sono Shreya", // Italian
+  "नമസ്കാരം, ഞാൻ ശ്രേയ", // Malayalam
+  "Hello, I am Shreya", // English
+  "Hallo, ich bin Shreya", // German
+  "Привет, я Шрея", // Russian
 ];
 
 export default function RotatingText() {
