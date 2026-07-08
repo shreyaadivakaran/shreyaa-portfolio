@@ -164,7 +164,7 @@ export default function App() {
           <div className="mt-12 flex flex-col sm:flex-row items-center gap-6">
             {/* Download CV */}
             <a
-              href="Shreya-SDE-Resume.pdf"
+              href="/Shreya-SDE-Resume.pdf"
               download
               className="
       group relative overflow-hidden
@@ -248,7 +248,7 @@ export default function App() {
               {/* Left: Text */}
               <div className="space-y-6">
                 <p className="text-white/80 text-lg leading-relaxed">
-                  I’m an{" "}
+                  Im an{" "}
                   <span className="text-purple-300 font-semibold">
                     Information Technology student
                   </span>{" "}
