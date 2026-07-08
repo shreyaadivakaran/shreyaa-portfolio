@@ -164,7 +164,7 @@ export default function App() {
           <div className="mt-12 flex flex-col sm:flex-row items-center gap-6">
             {/* Download CV */}
             <a
-              href="/Shreya-SDE-Resume.pdf"
+              href="/projects/Shreya-SDE-Resume.pdf"
               download
               className="
       group relative overflow-hidden
